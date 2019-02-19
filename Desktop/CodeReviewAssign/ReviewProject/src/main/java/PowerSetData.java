@@ -23,13 +23,18 @@ public class PowerSetData {
     NoSuchElementException, NegativeArraySizeException{
 
             StringTokenizer inputTokens = new StringTokenizer(string);
+<<<<<<< HEAD
+            String[] RESULT = string.split("\\s");
+=======
 
             String[] RESULT = string.split("\\s"); //bug #1 fix on escape character that was incorrect
+>>>>>>> master
 
             String str = "";
 
             int n; // will be the length of myArray
-            if (inputTokens.hasMoreTokens()) {
+            if (inputTokens.hasMoreTokens()) 
+            {   //bug #2 fix
                     n = inputTokens.countTokens();
             } else {
                     throw new NoSuchElementException();
