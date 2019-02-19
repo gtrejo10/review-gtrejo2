@@ -1,3 +1,10 @@
+/*
+  File:	Item.java
+  Author:	unknown
+  Date:	02/18/19
+  
+  Description: Creates item objects
+*/
 package main.java;
 
 public final class Item {
