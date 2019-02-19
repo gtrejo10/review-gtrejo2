@@ -23,7 +23,12 @@ public class PowerSetData {
     NoSuchElementException, NegativeArraySizeException{
 
             StringTokenizer inputTokens = new StringTokenizer(string);
+<<<<<<< HEAD
             String[] RESULT = string.split("\\s");
+=======
+
+            String[] RESULT = string.split("\\s"); //bug #1 fix on escape character that was incorrect
+>>>>>>> master
 
             String str = "";
 
